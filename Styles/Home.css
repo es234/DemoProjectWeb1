@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+}
+
+body{
+  background-color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#wrapper{
+  margin:30px;
+  border: 1px solid;
+  box-shadow: 5px 10px 4px #888888;
+}
+
+/* Header starts */
+header{
+  background-color: white;
+}
+header>img{
+  width:250px;
+  
+}
+header>nav{
+  display:inline;
+  float:right;
+  padding:30px;
+}
+header a{
+  text-decoration: none;
+  padding:20px;
+  margin:5px;
+  font-size:large;
+  color:grey;
+}
+
+/* Header ends */
+
+/* Main begins */
+main{
+  background-color: aliceblue;
+}
+
+li {
+  display: inline;
+}
+li a {
+  color: #666;
+  padding: 25px;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.right {
+  float: right;
+}
+main .back-img {
+  background-position: center;
+  width: 100%;
+}
+.heading {
+  margin-top: 3%;
+  text-align: center;
+}
+.cards {
+  display: flex;
+}
+.med-card {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0, 2);
+  width: 30%;
+  margin: 2% 0 5% 10%;
+}
+.med-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.med-card img {
+  width: 100%;
+}
+.med-container {
+  padding: 2px 16px;
+}
+.med-container p {
+  letter-spacing: 1px;
+}
+
+/* Main ends */
+
+/* Footer begins */
+footer{
+  background-color: white;
+}
+footer>div{
+  display:inline-block;
+  width:400px;
+}
+footer img{
+  width:200px;
+  margin-left:60px;   
+}
+footer p{
+  margin:0 0 20px 20px;
+}
+footer>address{
+  text-align: right;
+  float:right;
+  padding:20px;
+}
+
+/* Footer ends */

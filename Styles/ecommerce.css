@@ -1,0 +1,169 @@
+* {
+  margin: 0%;
+}
+
+body{
+  background-color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#wrapper{
+  margin:30px;
+  border: 1px solid;
+  box-shadow: 5px 10px 4px #888888;
+}
+
+/* Header starts */
+header{
+  background-color: white;
+}
+header>img{
+  width:250px;
+  
+}
+header>nav{
+  display:inline;
+  float:right;
+  padding:30px;
+}
+header a{
+  text-decoration: none;
+  padding:20px;
+  margin:5px;
+  font-size:large;
+  color:grey;
+}
+
+/* Header ends */
+
+/* Main begins */
+main{
+  background-color: aliceblue;
+}
+
+
+img {
+  float: left;
+  width: 17em;
+  background-color: aliceblue;
+}
+/* body {
+  margin: 0;
+  background-image: url(Images/background1.jpg);
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+.bar {
+  overflow: hidden;
+  background-color: aliceblue;
+}
+.bar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.bar a:hover {
+  background-color: gray;
+  color: black;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 27px;
+}
+#content {
+  max-width: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: right;
+  padding-right: 5%;
+}
+
+#price {
+  color: grey;
+  font-size: 26px;
+}
+#content button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 30%;
+  font-size: 13px;
+}
+
+#content button:hover {
+  background-color: gray;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.abhayr {
+  float: right;
+}
+
+.content1 {
+  max-width: 300px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-right: thick solid black;
+  padding-right: 410px;
+  margin-right: 1px;
+  margin: 0%;
+}
+.price1 {
+  color: grey;
+  font-size: 26px;
+}
+.content1 button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 30%;
+  font-size: 13px;
+}
+.content1 button :hover {
+  background-color: gray;
+}
+
+/* footer {
+  border: 3px solid #e7e7e7;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 2%;
+  font-weight: bolder;
+  font-size: larger;
+} */
+.space {
+  padding-right: 50%;
+}
+
+
+/* Main ends */
+
+/* Footer begins */
+footer{
+  background-color: white;
+}
+footer>div{
+  display:inline-block;
+  width:400px;
+}
+footer img{
+  width:200px;
+  margin-left:60px;   
+}
+footer p{
+  margin:0 0 20px 20px;
+}
+footer>address{
+  text-align: right;
+  float:right;
+  padding:20px;
+}
+
+/* Footer ends */
